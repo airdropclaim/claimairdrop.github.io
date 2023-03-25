@@ -1,3 +1,8 @@
-<head>
-  <meta http-equiv="Refresh" content="0; URL=http://www.arbitqum.foundation/" />
-</head>
+There are a number of ways to edit the global git config file. One way is to add properties through the command line. The global git config email and username properties are often set in the following way:
+
+git config --global user.name cameronmcnz
+git config --global user.email global-config@example.com
+To be more expressive, you can include the ¨Cadd switch when you set a global git config property:
+
+git config --global --add user.name cameronmcnz
+git config --global --add user.email global-config@example.com
